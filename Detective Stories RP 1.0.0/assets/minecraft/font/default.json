@@ -58,6 +58,13 @@
         },
         {
             "type": "bitmap",
+            "file": "minecraft:vladislavvc/ui/task_cn.png",
+            "ascent": -3,
+            "height": 42,
+            "chars": ["\uA016"]
+        },
+        {
+            "type": "bitmap",
             "file": "minecraft:vladislavvc/ui/waiting_mc.png",
             "ascent": 10,
             "height": 11,

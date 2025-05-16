@@ -43,6 +43,7 @@ execute if score #start_cutscene timer matches 277 run function map:loop/time_pl
 execute if score #start_cutscene timer matches 278 if entity @a[tag=language.russian] run bossbar set minecraft:quests name [{"text": "\uA012", "color": "#feffff","font":"minecraft:default","shadow_color":[0,0,0,0]},{"translate": "space.0","font":"space"},{"text": "", "color": "#feffff"}]
 execute if score #start_cutscene timer matches 278 if entity @a[tag=language.english] run bossbar set minecraft:quests name [{"text": "\uA014", "color": "#feffff","font":"minecraft:default","shadow_color":[0,0,0,0]},{"translate": "space.0","font":"space"},{"text": "", "color": "#feffff"}]
 execute if score #start_cutscene timer matches 278 if entity @a[tag=language.spanish] run bossbar set minecraft:quests name [{"text": "\uA015", "color": "#feffff","font":"minecraft:default","shadow_color":[0,0,0,0]},{"translate": "space.0","font":"space"},{"text": "", "color": "#feffff"}]
+execute if score #start_cutscene timer matches 278 if entity @a[tag=language.chinese] run bossbar set minecraft:quests name [{"text": "\uA016", "color": "#feffff","font":"minecraft:default","shadow_color":[0,0,0,0]},{"translate": "space.0","font":"space"},{"text": "", "color": "#feffff"}]
 execute if score #start_cutscene timer matches 278 run bossbar set minecraft:quests_distance name ["",{"text": " ","color":"#FEFFFF","shadow_color":[0,0,0,0]},{"text":"","color":"#FEFFFF","shadow_color":[0,0,0,0]}]
 
 execute if score #start_cutscene timer matches 278 run schedule clear map:cutscene/start
